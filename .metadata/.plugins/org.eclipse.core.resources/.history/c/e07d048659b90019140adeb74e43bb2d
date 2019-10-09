@@ -1,0 +1,14 @@
+package com.codingdojo.project;
+
+import com.animalkingdom.lion.Lion;
+
+public class ProjectTest {
+	public static void main(String [] args) {
+		Project first= new Project("Facebook","Socialmedia");
+
+		System.out.println(simba.name);
+		System.out.println(simba.weight);
+		System.out.println(Lion.numOfLions);
+
+	}
+}

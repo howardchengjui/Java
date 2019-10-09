@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+/Users/howardchen/Desktop/servlets/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1537302874.index
+/SimpleProject/src
+/Users/howardchen/Desktop/servlets/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/69312873.index
+/Checkerboard/src

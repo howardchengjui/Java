@@ -1,0 +1,26 @@
+package com.zookeeper.mammal;
+
+public class Gorilla extends Mammal {
+	public Gorilla() {
+		super();
+	}
+	
+	public void throwSomething(int objects) {
+		this.energyLevel -= 5 * objects;
+		System.out.println("Gorilla is happy");
+		System.out.println(this.displayEnergy());
+
+	}
+	public void eatBananas(int amount) {
+		this.energyLevel +=10*amount;
+		System.out.println("Gorilla climbed a tree");
+		System.out.println(this.displayEnergy());
+
+	}
+	public void climb(int times) {
+		this.energyLevel -= 10 * times;
+		System.out.println("Gorilla throws something at you");
+		System.out.println(this.displayEnergy());
+
+	}
+}

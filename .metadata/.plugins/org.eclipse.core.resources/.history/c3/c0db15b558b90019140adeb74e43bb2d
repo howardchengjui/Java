@@ -1,0 +1,33 @@
+package com.codingdojo.project;
+
+public class Project {
+	public String name;
+	public String description;
+	
+	public elevatorPitch() {};
+
+	public elevatorPitch(String name) {
+		this.name=name;
+	};
+
+	public elevatorPitch(String name, String description) {
+		this.name=name;
+		this.description=description;
+	}
+	
+	public void setName(String name) {
+		this.name= name;
+	}
+	
+	public void getName() {
+		return name;
+	}
+	
+	public void setDescription(String description) {
+		this.description= description;
+	}
+	
+	public void getDescription() {
+		return description;
+	}
+}

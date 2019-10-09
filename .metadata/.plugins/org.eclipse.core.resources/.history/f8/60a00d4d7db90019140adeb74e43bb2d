@@ -1,0 +1,17 @@
+package com.objectmaster.human;
+
+public class HumanTest {
+	public static void main(String [] args) {
+		Human enemy= new Human();
+		Human me=new Human();
+		me.attack(enemy);
+		enemy.attack(me);
+		System.out.print(me.displayHealth());
+		System.out.print(enemy.displayHealth());
+		
+		Ninja michael =new Ninja();
+		Ninja you= new Ninja();
+		you.steal(michael);
+		System.out.println(michael.displayHealth());
+}
+}

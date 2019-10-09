@@ -1,0 +1,9 @@
+package com.animalkingdom.lion;
+
+public class AnimalKingdomTest {
+	public static void main(String [] args) {
+		Lion simba= new Lion();
+		
+		System.out.println(simba);
+	}
+}

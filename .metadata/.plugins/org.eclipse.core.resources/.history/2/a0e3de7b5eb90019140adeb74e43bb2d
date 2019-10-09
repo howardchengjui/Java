@@ -1,0 +1,11 @@
+package com.codingdojo.project;
+
+public class ProjectTest {
+	public static void main(String [] args) {
+		Project fb= new Project("Facebook","Socialmedia");
+		fb.getName();
+		fb.getDescription();
+		fb.elevatorPitch();
+
+	}
+}
